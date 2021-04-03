@@ -3,4 +3,4 @@ The OverWebProjector turns a smartphone into an overhead projector for the digit
 
 <p align="center">
   <img width="554" height="503" src="https://github.com/aprodi/OWP/blob/main/owp.png?raw=true">
-<\p>
+</p>
