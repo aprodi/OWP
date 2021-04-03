@@ -1,52 +1,24 @@
-# Prerequisites
-*.d
+# Don't take stl files from the openscad folder or docs folder
+openscad/*.stl
+docs/*/*.stl
+# Do allow them in the stl folder though
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ignore gcode files
+*.g
+*.gcode
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Ignore VIM swap files
+*.swp
+*~
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore zip files in the documentation dir
+docs/*.zip
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Ignore built files
+builds/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Ignore python virtualenvironment
+.venv/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore VSCode
+.vscode/
