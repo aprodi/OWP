@@ -16,5 +16,5 @@ openscad -o builds/owp-hex.stl openscad/.scad
 openscad -o builds/owp-ring.stl openscad/owp-ring.scad
 
 #optional parts
-openscad -o builds/cutting_jig_pvc_pipe-40mm-v2.stl openscad/cutting_jig_pvc_pipe-40mm-v2.scad
+openscad -o builds/drilling_jig_pvc_pipe-40mm-v1.stl openscad/drilling_jig_pvc_pipe-40mm-v1.scad
 openscad -o builds/cutting_jig_pvc_pipe-40mm-v3.stl openscad/cutting_jig_pvc_pipe-40mm-v3.scad
